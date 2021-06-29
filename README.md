@@ -1,3 +1,4 @@
+
 # Mending Minds
 
 ## Project Description
@@ -6,9 +7,11 @@
 There are two mental health topics to choose from which each has it's own page and three pieces of advice as an example. There will be an input section provided where the user is able to insert advice that has helped them, along with a like Button that will generate an amount of likes. The amount with the highest likes will be displayed at the top of the page. This project is used with React and Airtable.
 
 ## Wireframes
-![Screen Shot 2021-06-29 at 08 15 47](https://user-images.githubusercontent.com/84581353/123796130-cb35a180-d8b2-11eb-9918-9107d13181ab.png)
+![Screen Shot 2021-06-29 at 14 47 27](https://user-images.githubusercontent.com/84581353/123851234-f33ff780-d8e8-11eb-9b58-a82baaeae895.png)
 ![Screen Shot 2021-06-29 at 14 44 28](https://user-images.githubusercontent.com/84581353/123850995-aeb45c00-d8e8-11eb-9680-5ecc5e6a2e37.png)
-![Screen Shot 2021-06-29 at 08 15 21](https://user-images.githubusercontent.com/84581353/123796156-d1c41900-d8b2-11eb-90fc-daf43676f8fd.png)
+
+![Screen Shot 2021-06-29 at 14 48 07](https://user-images.githubusercontent.com/84581353/123851382-1c608800-d8e9-11eb-9efb-d736e56b8eb0.png)
+
 ![Screen Shot 2021-06-29 at 14 44 04](https://user-images.githubusercontent.com/84581353/123851005-b247e300-d8e8-11eb-8e1e-fbbff21b0d6f.png)
 
 ## Component Hierarchy
