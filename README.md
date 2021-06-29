@@ -20,17 +20,28 @@ There are two mental health topics to choose from which each has it's own page a
 
 ## API and Data Sample
 ```
-"records": [
-        {
-            "id": "reckod5TWhIFfgDBp",
+    {
+            "id": "recA0OGL8oGGVqqKC",
             "fields": {
-                "rating": 3,
-                "name": "1. Meditation",
-                "description": "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an..."
+                "my advice": "Go for a walk and drink some water",
+                "rating": 5,
+                "usernames": "Waterbottle."
             },
             "createdTime": "2021-06-24T15:27:18.000Z"
         },
         {
+            "id": "recrDqAj1AvP9Tbwm",
+            "fields": {
+                "my advice": "go back in time and undo things ",
+                "rating": 1,
+                "usernames": "Timemachine"
+            },
+            "createdTime": "2021-06-24T15:27:18.000Z"
+        }
+    ],
+    "offset": "recrDqAj1AvP9Tbwm"
+}
+
 ```        
 
 ## MVP
