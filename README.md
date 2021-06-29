@@ -7,12 +7,9 @@ There are two mental health topics to choose from which each has it's own page a
 
 ## Wireframes
 ![Screen Shot 2021-06-29 at 08 15 47](https://user-images.githubusercontent.com/84581353/123796130-cb35a180-d8b2-11eb-9918-9107d13181ab.png)
-![Screen Shot 2021-06-29 at 08 16 07](https://user-images.githubusercontent.com/84581353/123796141-cd97fb80-d8b2-11eb-9e49-026a973340a4.png)
-![Screen Shot 2021-06-29 at 08 16 28](https://user-images.githubusercontent.com/84581353/123796148-cffa5580-d8b2-11eb-9f03-2ac3fbf8583d.png)
+![Screen Shot 2021-06-29 at 14 44 28](https://user-images.githubusercontent.com/84581353/123850995-aeb45c00-d8e8-11eb-9680-5ecc5e6a2e37.png)
 ![Screen Shot 2021-06-29 at 08 15 21](https://user-images.githubusercontent.com/84581353/123796156-d1c41900-d8b2-11eb-90fc-daf43676f8fd.png)
-![Screen Shot 2021-06-29 at 08 16 52](https://user-images.githubusercontent.com/84581353/123796163-d38ddc80-d8b2-11eb-91eb-1c58e394dab0.png)
-![Screen Shot 2021-06-29 at 08 17 12](https://user-images.githubusercontent.com/84581353/123796168-d5f03680-d8b2-11eb-9ad6-b4423bf864bd.png)
-
+![Screen Shot 2021-06-29 at 14 44 04](https://user-images.githubusercontent.com/84581353/123851005-b247e300-d8e8-11eb-8e1e-fbbff21b0d6f.png)
 
 ## Component Hierarchy
 
