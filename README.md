@@ -65,7 +65,7 @@ There are two mental health topics to choose from which each has it's own page a
 | Axios set up | H | .5hrs|   N/A  | N/A |
 | General Research| H | 2hrs|   N/A  | N/A |
 | Get and Set Data | H | 4hrs|   N/A   | N/A |
-| React| M | 6hrs|   N/A   | N/A |
+| React| H | 6hrs|   N/A   | N/A |
 | Page 1 data display| H | 2hrs|   N/A   | N/A |
 | Page 2 data display| H | 1.5hrs|  N/A    | N/A |
 | Page 3 data display| H | 1hrs|  N/A    | N/A |
