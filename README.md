@@ -51,7 +51,7 @@ There are two mental health topics to choose from which each has it's own page a
 
 ## Post MVP
 - Allow the information on the page to be stored for future users to see.
--Allow for the user to delete the information they submited on the page
+- Allow for the user to delete the information they submited on the page
 
 
 ## Project Schedule
