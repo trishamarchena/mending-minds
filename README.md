@@ -8,11 +8,10 @@ There are two mental health topics to choose from which each has it's own page a
 
 ## Wireframes
 ![Screen Shot 2021-06-29 at 14 47 27](https://user-images.githubusercontent.com/84581353/123851234-f33ff780-d8e8-11eb-9b58-a82baaeae895.png)
-![Screen Shot 2021-06-29 at 14 44 28](https://user-images.githubusercontent.com/84581353/123850995-aeb45c00-d8e8-11eb-9680-5ecc5e6a2e37.png)
-
+![Screen Shot 2021-06-29 at 15 18 56](https://user-images.githubusercontent.com/84581353/123854966-5895e780-d8ed-11eb-94d9-ee66d5ed8791.png)
 ![Screen Shot 2021-06-29 at 14 48 07](https://user-images.githubusercontent.com/84581353/123851382-1c608800-d8e9-11eb-9efb-d736e56b8eb0.png)
+![Screen Shot 2021-06-29 at 15 20 23](https://user-images.githubusercontent.com/84581353/123855154-8c710d00-d8ed-11eb-9f31-c66babc77823.png)
 
-![Screen Shot 2021-06-29 at 14 44 04](https://user-images.githubusercontent.com/84581353/123851005-b247e300-d8e8-11eb-8e1e-fbbff21b0d6f.png)
 
 ## Component Hierarchy
 
@@ -21,11 +20,13 @@ There are two mental health topics to choose from which each has it's own page a
 ## API and Data Sample
 ```
     {
+            {
             "id": "recA0OGL8oGGVqqKC",
             "fields": {
                 "my advice": "Go for a walk and drink some water",
                 "rating": 5,
-                "usernames": "Waterbottle."
+                "usernames": "Waterbottle.",
+                "topic": "Anxiety"
             },
             "createdTime": "2021-06-24T15:27:18.000Z"
         },
@@ -34,7 +35,8 @@ There are two mental health topics to choose from which each has it's own page a
             "fields": {
                 "my advice": "go back in time and undo things ",
                 "rating": 1,
-                "usernames": "Timemachine"
+                "usernames": "Timemachine",
+                "topic": "Depression"
             },
             "createdTime": "2021-06-24T15:27:18.000Z"
         }
