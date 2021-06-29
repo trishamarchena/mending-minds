@@ -8,9 +8,10 @@ There are two mental health topics to choose from which each has it's own page a
 
 ## Wireframes
 ![Screen Shot 2021-06-29 at 14 47 27](https://user-images.githubusercontent.com/84581353/123851234-f33ff780-d8e8-11eb-9b58-a82baaeae895.png)
-![Screen Shot 2021-06-29 at 15 18 56](https://user-images.githubusercontent.com/84581353/123854966-5895e780-d8ed-11eb-94d9-ee66d5ed8791.png)
-![Screen Shot 2021-06-29 at 14 48 07](https://user-images.githubusercontent.com/84581353/123851382-1c608800-d8e9-11eb-9efb-d736e56b8eb0.png)
 ![Screen Shot 2021-06-29 at 15 20 23](https://user-images.githubusercontent.com/84581353/123855154-8c710d00-d8ed-11eb-9f31-c66babc77823.png)
+![Screen Shot 2021-06-29 at 14 48 07](https://user-images.githubusercontent.com/84581353/123851382-1c608800-d8e9-11eb-9efb-d736e56b8eb0.png)
+![Screen Shot 2021-06-29 at 15 18 42](https://user-images.githubusercontent.com/84581353/123855298-bfb39c00-d8ed-11eb-8634-14dec5b01bcd.png)
+
 
 
 ## Component Hierarchy
