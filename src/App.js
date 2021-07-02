@@ -32,9 +32,10 @@ function App() {
         <h3> Description </h3>
       </Route>
       <Route path="/Advice">
-        {superAdvice.map((advice) => (
+        {superAdvice.map((advice, index) => (
           <Advice
             key={advice.id}
+            index={index}
             advice={advice}
             setToggleFetch={setToggleFetch}
           />
