@@ -1,5 +1,5 @@
-
 # Mending Minds
+
 
 ## Project Description
 
@@ -7,11 +7,12 @@
 There are two mental health topics to choose from which each has it's own page and three pieces of advice as an example. There will be an input section provided where the user is able to insert advice that has helped them, along with a like Button that will generate an amount of likes. The amount with the highest likes will be displayed at the top of the page. This project is used with React and Airtable.
 
 ## Wireframes
-![Screen Shot 2021-06-29 at 14 47 27](https://user-images.githubusercontent.com/84581353/123851234-f33ff780-d8e8-11eb-9b58-a82baaeae895.png)
-![Screen Shot 2021-06-29 at 15 20 23](https://user-images.githubusercontent.com/84581353/123855154-8c710d00-d8ed-11eb-9f31-c66babc77823.png)
-![Screen Shot 2021-06-29 at 14 48 07](https://user-images.githubusercontent.com/84581353/123851382-1c608800-d8e9-11eb-9efb-d736e56b8eb0.png)
-![Screen Shot 2021-06-29 at 15 18 42](https://user-images.githubusercontent.com/84581353/123855298-bfb39c00-d8ed-11eb-8634-14dec5b01bcd.png)
-
+![Screen Shot 2021-06-29 at 08 15 47](https://user-images.githubusercontent.com/84581353/123796130-cb35a180-d8b2-11eb-9918-9107d13181ab.png)
+![Screen Shot 2021-06-29 at 08 16 07](https://user-images.githubusercontent.com/84581353/123796141-cd97fb80-d8b2-11eb-9e49-026a973340a4.png)
+![Screen Shot 2021-06-29 at 08 16 28](https://user-images.githubusercontent.com/84581353/123796148-cffa5580-d8b2-11eb-9f03-2ac3fbf8583d.png)
+![Screen Shot 2021-06-29 at 08 15 21](https://user-images.githubusercontent.com/84581353/123796156-d1c41900-d8b2-11eb-90fc-daf43676f8fd.png)
+![Screen Shot 2021-06-29 at 08 16 52](https://user-images.githubusercontent.com/84581353/123796163-d38ddc80-d8b2-11eb-91eb-1c58e394dab0.png)
+![Screen Shot 2021-06-29 at 08 17 12](https://user-images.githubusercontent.com/84581353/123796168-d5f03680-d8b2-11eb-9ad6-b4423bf864bd.png)
 
 
 ## Component Hierarchy
@@ -20,31 +21,17 @@ There are two mental health topics to choose from which each has it's own page a
 
 ## API and Data Sample
 ```
-    {
-            {
-            "id": "recA0OGL8oGGVqqKC",
+"records": [
+        {
+            "id": "reckod5TWhIFfgDBp",
             "fields": {
-                "my advice": "Go for a walk and drink some water",
-                "rating": 5,
-                "usernames": "Waterbottle.",
-                "topic": "Anxiety"
+                "rating": 3,
+                "name": "1. Meditation",
+                "description": "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an..."
             },
             "createdTime": "2021-06-24T15:27:18.000Z"
         },
         {
-            "id": "recrDqAj1AvP9Tbwm",
-            "fields": {
-                "my advice": "go back in time and undo things ",
-                "rating": 1,
-                "usernames": "Timemachine",
-                "topic": "Depression"
-            },
-            "createdTime": "2021-06-24T15:27:18.000Z"
-        }
-    ],
-    "offset": "recrDqAj1AvP9Tbwm"
-}
-
 ```        
 
 ## MVP
@@ -54,17 +41,17 @@ There are two mental health topics to choose from which each has it's own page a
 
 ## Post MVP
 - Allow the information on the page to be stored for future users to see.
-- Allow for the user to delete the information they submited on the page
+-Allow for the user to delete the information they submited on the page
 
 
 ## Project Schedule
 
 | Day | Components | Status |
 | --- | :---: |  :---: | 
-| Tuesday June 28|Project Pitch and approval / Research| Incomplete|  
-| Wednesday June 29 | Airtable Set up and Axios| Incomplete| 
-| Thursday June 30| Get and Set Data | Incomplete|  
-| Friday July 1| React | Incomplete| 
+| Tuesday June 28|Project Pitch and approval / Research| Complete|  
+| Wednesday June 29 | Airtable Set up and Axios| Complete| 
+| Thursday June 30| Get and Set Data | Complete|  
+| Friday July 2| React | Incomplete| 
 | Monday July 5| CSS | Incomplete|
 | Tuesday July 6 | Media Query | Incomplete| 
 | Wednesday July 7 | Presentation | Incomplete| 
@@ -75,7 +62,7 @@ There are two mental health topics to choose from which each has it's own page a
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Airtable setup | H | 3hrs|  N/A  | N/A |
+| Airtable setup | H | 3hrs|  N/A  | 1hr |
 | Axios set up | H | .5hrs|   N/A  | N/A |
 | General Research| H | 2hrs|   N/A  | N/A |
 | Get and Set Data | H | 4hrs|   N/A   | N/A |
@@ -102,3 +89,4 @@ There are two mental health topics to choose from which each has it's own page a
 
 ### Threats:
 #### I have a hard time asking for help when I get stuck. I feel like I'm always bothering people, however with this project I will make sure to reach out to the instructors when I need assistance so this can be the best project possible.
+ 
