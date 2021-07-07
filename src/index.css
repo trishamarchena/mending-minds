@@ -101,11 +101,84 @@ h4{
   position: relative;
 }
 
-/* textarea{
-  position: absolute;
-  margin: 20px auto;
-  width: 43ch;
+
+@media only screen and (max-width: 768px) {
+  h1{
+    text-align: center;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 300%;
+    margin-bottom: 100px;
+  }
   
-} */
-
-
+  body {
+    background-color: rgb(202, 236, 255);
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  a:link, a:visited {
+    color: black;
+  }
+  
+  a:hover{
+    color: whitesmoke;
+  }
+  
+  .navbar{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  }
+  
+  /*Just on the homepage*/
+  .description{
+    text-align: center; 
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.47);
+    border-radius: 6px;
+    padding: 20px 0px 20px 0px;
+  }
+  footer{
+    bottom: 0;
+    text-align: center;
+    margin: 0;
+    width: 100%
+  }
+  
+  /* ADVICE PAGE. */
+  .theBody{
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.57);
+    margin: 50px;
+    padding: 7px;
+  }
+  
+  .rating{
+    text-align: center;
+  }
+  
+  .username{
+    display: flex;
+    justify-content: center;
+    margin: 0auto;
+    padding: 0px;
+  }
+  h2, h3{
+    margin: 1px;
+  }
+  .topic{
+    text-align: center;
+    margin: 0px 50vw 0px 0px ;
+  }
+  
+  p{
+    margin: 5px;
+    
+  }
+  .ratingIguess{
+    margin: 0px;
+  }
+  h4{
+    margin: 5px;
+  }
+  
+}

@@ -20,15 +20,10 @@ function Form(props) {
     await axios.post(baseURL, { fields: newAdvice }, config);
     props.setToggleFetch((toggleFetch) => !toggleFetch);
   };
-
+//myForm info, label it so you can reference back to it in CSS
   return (
     <form onSubmit={handleSubmit}>
-      {/* <input
-        min={0}
-        max={5}
-        value={rating}
-        onChange={(e) => setRating(e.target.valueAsNumber)}
-      /> */}
+
       <div className="formInputs">
         <div className="formUser">
       <input

@@ -4,7 +4,7 @@
 ## Project Description
 
 - This project is designed for people to help better themselves out of specific mental health states. 
-There are two mental health topics to choose from which each has it's own page and three pieces of advice as an example. There will be an input section provided where the user is able to insert advice that has helped them, along with a like Button that will generate an amount of likes. The amount with the highest likes will be displayed at the top of the page. This project is used with React and Airtable.
+There is a tab that takes you to the form labeled as "Start your journey here! " where you have two permanent pieces of advice as an example. There will be an input section provided where the user is able to insert advice that has helped them, along with a like Button that will generate an amount of likes. This project is used with React and Airtable.
 
 ## Wireframes
 ![Screen Shot 2021-06-29 at 08 15 47](https://user-images.githubusercontent.com/84581353/123796130-cb35a180-d8b2-11eb-9918-9107d13181ab.png)
@@ -23,21 +23,21 @@ There are two mental health topics to choose from which each has it's own page a
 ```
 "records": [
         {
-            "id": "reckod5TWhIFfgDBp",
-            "fields": {
-                "rating": 3,
-                "username": "1. Meditation",
-                "description": "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an..."
-            },
-            "createdTime": "2021-06-24T15:27:18.000Z"
-        },
+    "records": [
         {
+            "id": "recA0OGL8oGGVqqKC",
+            "fields": {
+                "advice": "What worked for me was EMDR therapy. It's a form of therapy that helps you process traumatic memories and change how you react to it.  Other than that...",
+                "topic": "PTSD ",
+                "rating": 5,
+                "username": "ADMIN"
+            },
 ```        
 
 ## MVP
 - Get and post request
 - have an input that displays the info on the page 
-- Set count function that displays amount of likes 
+- Set a count function that displays amount of likes 
 
 ## Post MVP
 - Allow the information on the page to be stored for future users to see.
@@ -54,7 +54,7 @@ There are two mental health topics to choose from which each has it's own page a
 | Friday July 2| React | Complete| 
 | Monday July 5| CSS | Complete|
 | Tuesday July 6 | Media Query | Complete| 
-| Wednesday July 7 | Presentation | Complete| 
+| Wednesday July 7 | Presentation | inComplete| 
 
 
 
@@ -64,16 +64,15 @@ There are two mental health topics to choose from which each has it's own page a
 | --- | :---: |  :---: | :---: | :---: |
 | Airtable setup | H | 3hrs|  N/A  | 1hr |
 | Axios set up | H | .5hrs|   N/A  |20min|
-| General Research| H | 2hrs|   N/A  | 3hrs|
-| Get and Set Data | H | 4hrs|   N/A   | N/A |
-| React| H | 6hrs|   N/A   | N/A |
-| Page 1 data display| H | 2hrs|   N/A   | N/A |
-| Page 2 data display| H | 1.5hrs|  N/A    | N/A |
-| Page 3 data display| H | 1hrs|  N/A    | N/A |
-| CSS  | H | 8hrs|   N/A   | N/A |
-| Media query | H | 7hrs|   N/A  | N/A |
-| Debugging | H | 5hrs|   N/A   | N/A |
-| Total | H | 40hrs|  N/A   | N/A  |
+| General Research| H | 2hrs|   N/A  | 1hr|
+| Get and Set Data | H | 4hrs|   N/A   | 2hr|
+| React| H | 6hrs|   N/A   | 5hrs |
+| Page 1 data display| H | 2hrs|   N/A   | 2hrs |
+| Page 2 data display| H | 1.5hrs|  N/A    | 2hr |
+| CSS  | H | 8hrs|   N/A   | 5hrs |
+| Media query | H | 7hrs|   N/A  | 3hrs |
+| Debugging | H | 5hrs|   N/A   | 6hrs |
+| Total | H | 39hrs|  N/A   | 27.2hrs  |
 
 
 ## SWOT Analysis
@@ -88,5 +87,5 @@ There are two mental health topics to choose from which each has it's own page a
 #### This project will help me better my learned skills, and strengthen my current weaknesses.
 
 ### Threats:
-#### I have a hard time asking for help when I get stuck. I feel like I'm always bothering people, however with this project I will make sure to reach out to the instructors when I need assistance so this can be the best project possible.
+#### I have a hard time asking for help when I get stuck, however with this project I will make sure to reach out to the instructors when I need assistance so this can be the best project possible.
  

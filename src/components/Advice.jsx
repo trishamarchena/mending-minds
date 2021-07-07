@@ -8,15 +8,14 @@ function Advice(props) {
   const { username, topic, advice, rating } = props.advice.fields;
 
   const deleteAdvice = async () => {
-
     const adviceURL = `${baseURL}/${props.advice.id}`;
      await axios.delete(adviceURL, config );
      props.setToggleFetch((curr) => !curr);
   }
 
-
+//Here I return my data from the API.
+//Label everything here so you're able to use it in CSS.
   return (
-    <article>
       <main>
         <div className= "theBody">
         <div className="username">
@@ -36,9 +35,7 @@ function Advice(props) {
         </div>
         </div>
       </main>
-
-    </article>
   );
-}
+}//Delete button above allows you to delete past the first 2 permanent pieces of data by activating the delete function past index 1.
 
 export default Advice;
