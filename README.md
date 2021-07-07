@@ -26,7 +26,7 @@ There are two mental health topics to choose from which each has it's own page a
             "id": "reckod5TWhIFfgDBp",
             "fields": {
                 "rating": 3,
-                "name": "1. Meditation",
+                "username": "1. Meditation",
                 "description": "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an..."
             },
             "createdTime": "2021-06-24T15:27:18.000Z"
@@ -51,10 +51,10 @@ There are two mental health topics to choose from which each has it's own page a
 | Tuesday June 28|Project Pitch and approval / Research| Complete|  
 | Wednesday June 29 | Airtable Set up and Axios| Complete| 
 | Thursday June 30| Get and Set Data | Complete|  
-| Friday July 2| React | Incomplete| 
-| Monday July 5| CSS | Incomplete|
-| Tuesday July 6 | Media Query | Incomplete| 
-| Wednesday July 7 | Presentation | Incomplete| 
+| Friday July 2| React | Complete| 
+| Monday July 5| CSS | Complete|
+| Tuesday July 6 | Media Query | Complete| 
+| Wednesday July 7 | Presentation | Complete| 
 
 
 
@@ -63,8 +63,8 @@ There are two mental health topics to choose from which each has it's own page a
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Airtable setup | H | 3hrs|  N/A  | 1hr |
-| Axios set up | H | .5hrs|   N/A  | N/A |
-| General Research| H | 2hrs|   N/A  | N/A |
+| Axios set up | H | .5hrs|   N/A  |20min|
+| General Research| H | 2hrs|   N/A  | 3hrs|
 | Get and Set Data | H | 4hrs|   N/A   | N/A |
 | React| H | 6hrs|   N/A   | N/A |
 | Page 1 data display| H | 2hrs|   N/A   | N/A |

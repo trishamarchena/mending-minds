@@ -7,3 +7,7 @@ headers: {
 Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
 }
 };
+
+export const sortByCreatedTime = (records) => {
+  return records.sort((b, a) => new Date(b.createdTime) - new Date(a.createdTime));
+}

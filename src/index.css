@@ -1,6 +1,21 @@
+/* My background,
+THE CODE OF THIS BACKGROUND BELONGS TO THECALMAPP.COM */
+video{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+} 
+
+/* displayed on all of my pages */
 h1{
   text-align: center;
   font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 300%;
+  margin-bottom: 100px;
 }
 
 body {
@@ -8,17 +23,89 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+a{
+  text-decoration: none;
+
+}
+a:link, a:visited {
+  color: black;
+}
+
+a:hover{
+  color: whitesmoke;
+}
 
 .navbar{
 display: flex;
 justify-content: space-between;
+text-decoration: none;
 }
 
-/* .myLabels{
+/*Just on the homepage*/
+.description{
+  text-align: center; 
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.47);
+  border-radius: 6px;
+  padding: 20px 0px 20px 0px;
+}
+footer{
+  bottom: 0;
+  text-align: center;
+  margin: 0;
+  width: 100%
+}
+
+/* ADVICE PAGE. */
+.theBody{
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.57);
+  margin: 50px;
+  padding: 7px;
+}
+
+.rating{
+  text-align: center;
+}
+
+.username{
   display: flex;
-    justify-content: center;
-
+  justify-content: center;
+  margin: 0auto;
+  padding: 0px;
 }
- */
+h2, h3{
+  margin: 1px;
+}
+.topic{
+  text-align: center;
+  margin: 0px 50vw 0px 0px ;
+}
+
+p{
+  margin: 5px;
+  
+}
+.ratingIguess{
+  margin: 0px;
+}
+h4{
+  margin: 5px;
+}
+
+
+/*My bottom form inputs */
+.formInputs{
+  text-align: center;
+  margin: 50px;
+  position: relative;
+}
+
+/* textarea{
+  position: absolute;
+  margin: 20px auto;
+  width: 43ch;
+  
+} */
 
 
