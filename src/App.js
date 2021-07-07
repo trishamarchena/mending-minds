@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Route } from "react-router-dom";
 import { baseURL, config, sortByCreatedTime } from "./services";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home"
 import Advice from "./components/Advice";
 import Form from "./components/Form";
 import "./App.css";
@@ -19,8 +20,8 @@ function App() {
     };
     fetchAdvice();
   }, [toggleFetch]);
-//VIDEO CODE BELOW BELONGS TO THECALMAPP.COM
-//write your homepage information below and render all of your information on your page.
+  //write your homepage information below and render all of your information on your page.
+  //VIDEO CODE BELOW BELONGS TO THECALMAPP.COM
   return (
     <div className="App">
       <Navbar />
@@ -32,13 +33,7 @@ function App() {
         </main>
       </Route>
       <Route exact path="/">
-        <div div className= "description">
-        <h3> This website is designed for us to help each other mentally. On the top right you can start your journey by either looking at the top rated advice that has worked for others, as well as assisting and helping others by adding what has worked best for you.
-          Either way, we look forward to helping you get one step closer to mental health in whatever way possible. </h3>
-          </div>
-          <footer>
-            <h4>Patricia Marchena, Mending Minds &copy; </h4>
-          </footer>
+      <Home />
       </Route>
       <Route path="/Advice">
         {superAdvice.map((advice, index) => (
@@ -50,9 +45,10 @@ function App() {
           />
         ))}
         <Form setToggleFetch={setToggleFetch} />
-
       </Route>
-    </div>
+      </div>
+ 
   );
 }
+
 export default App;

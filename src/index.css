@@ -1,6 +1,6 @@
 /* My background,
 THE CODE OF THIS BACKGROUND BELONGS TO THECALMAPP.COM */
-video{
+video {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -8,177 +8,181 @@ video{
   width: 100%;
   height: 100%;
   z-index: -1;
-} 
+}
 
 /* displayed on all of my pages */
-h1{
+h1 {
   text-align: center;
-  font-family: 'Zen Tokyo Zoo', cursive;
+  font-family: "Zen Tokyo Zoo", cursive;
   font-size: 300%;
   margin-bottom: 100px;
 }
 
 body {
   background-color: rgb(202, 236, 255);
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
-
 }
-a:link, a:visited {
+a:link,
+a:visited {
   color: black;
 }
 
-a:hover{
+a:hover {
   color: whitesmoke;
 }
 
-.navbar{
-display: flex;
-justify-content: space-between;
-text-decoration: none;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
 }
 
 /*Just on the homepage*/
-.description{
-  text-align: center; 
+.description {
+  text-align: center;
   border: 2px solid black;
   background-color: rgba(255, 255, 255, 0.47);
   border-radius: 6px;
   padding: 20px 0px 20px 0px;
 }
-footer{
+footer {
   bottom: 0;
   text-align: center;
   margin: 0;
-  width: 100%
+  width: 100%;
 }
 
 /* ADVICE PAGE. */
-.theBody{
-  border: 2px solid black;
+.theBody {
+  border: 2.8px solid black;
   background-color: rgba(255, 255, 255, 0.57);
+  border-radius: 25px;
   margin: 50px;
   padding: 7px;
 }
 
-.rating{
+button{
+  border-radius: 5px;
+}
+
+.rating {
   text-align: center;
 }
 
-.username{
+.username {
   display: flex;
   justify-content: center;
   margin: 0auto;
   padding: 0px;
 }
-h2, h3{
+
+h2,
+h3 {
   margin: 1px;
 }
-.topic{
+.topic {
   text-align: center;
-  margin: 0px 50vw 0px 0px ;
+  margin: 0px 50vw 0px 0px;
 }
 
-p{
+p {
   margin: 5px;
-  
 }
-.ratingIguess{
+.ratingIguess {
   margin: 0px;
 }
-h4{
+h4 {
   margin: 5px;
 }
 
-
 /*My bottom form inputs */
-.formInputs{
+.formInputs {
   text-align: center;
   margin: 50px;
   position: relative;
 }
 
-
 @media only screen and (max-width: 768px) {
-  h1{
+  h1 {
     text-align: center;
-    font-family: 'Zen Tokyo Zoo', cursive;
+    font-family: "Zen Tokyo Zoo", cursive;
     font-size: 300%;
     margin-bottom: 100px;
   }
-  
+
   body {
     background-color: rgb(202, 236, 255);
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
   }
-  
-  a:link, a:visited {
+
+  a:link,
+  a:visited {
     color: black;
   }
-  
-  a:hover{
+
+  a:hover {
     color: whitesmoke;
   }
-  
-  .navbar{
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
   }
-  
+
   /*Just on the homepage*/
-  .description{
-    text-align: center; 
+  .description {
+    text-align: center;
     border: 2px solid black;
     background-color: rgba(255, 255, 255, 0.47);
     border-radius: 6px;
     padding: 20px 0px 20px 0px;
   }
-  footer{
+  footer {
     bottom: 0;
     text-align: center;
     margin: 0;
-    width: 100%
+    width: 100%;
   }
-  
+
   /* ADVICE PAGE. */
-  .theBody{
+  .theBody {
     border: 2px solid black;
     background-color: rgba(255, 255, 255, 0.57);
     margin: 50px;
     padding: 7px;
   }
-  
-  .rating{
+
+  .rating {
     text-align: center;
   }
-  
-  .username{
+
+  .username {
     display: flex;
     justify-content: center;
     margin: 0auto;
     padding: 0px;
   }
-  h2, h3{
+  h2,
+  h3 {
     margin: 1px;
   }
-  .topic{
+  .topic {
     text-align: center;
-    margin: 0px 50vw 0px 0px ;
+    margin: 0px 50vw 0px 0px;
   }
-  
-  p{
+
+  p {
     margin: 5px;
-    
   }
-  .ratingIguess{
+  .ratingIguess {
     margin: 0px;
   }
-  h4{
+  h4 {
     margin: 5px;
   }
-  
 }
