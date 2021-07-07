@@ -106,11 +106,13 @@ h4 {
   position: relative;
 }
 
+
+/* Im gonna the same for my media query as above since the page is amazingly responsive, just changed a few of the text sizes  */
 @media only screen and (max-width: 768px) {
   h1 {
     text-align: center;
     font-family: "Zen Tokyo Zoo", cursive;
-    font-size: 300%;
+    font-size: 400%;
     margin-bottom: 100px;
   }
 
@@ -121,7 +123,7 @@ h4 {
 
   a:link,
   a:visited {
-    color: black;
+    color: rgb(36, 1, 41);
   }
 
   a:hover {

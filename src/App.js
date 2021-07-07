@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Route } from "react-router-dom";
 import { baseURL, config, sortByCreatedTime } from "./services";
+import Myvid from "./components/Myvid";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home"
 import Advice from "./components/Advice";
@@ -21,12 +22,10 @@ function App() {
     fetchAdvice();
   }, [toggleFetch]);
   //write your homepage information below and render all of your information on your page.
-  //VIDEO CODE BELOW BELONGS TO THECALMAPP.COM
   return (
     <div className="App">
       <Navbar />
-
-      <video autoPlay loop muted src="https://s3.amazonaws.com/calm-assets-videos/hls/aaf764eade43946661391ae8204118bc/aaf764eade43946661391ae8204118bc.mp4"></video>
+      <Myvid />
       <Route path="/">
         <main>
           <h1>Mending Minds</h1>
