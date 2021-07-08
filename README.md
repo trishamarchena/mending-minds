@@ -7,13 +7,10 @@
 There is a tab that takes you to the form labeled as "Start your journey here! " where you have two permanent pieces of advice as an example. There will be an input section provided where the user is able to insert advice that has helped them, along with a like Button that will generate an amount of likes. This project is used with React and Airtable.
 
 ## Wireframes
-![Screen Shot 2021-06-29 at 08 15 47](https://user-images.githubusercontent.com/84581353/123796130-cb35a180-d8b2-11eb-9918-9107d13181ab.png)
-![Screen Shot 2021-06-29 at 08 16 07](https://user-images.githubusercontent.com/84581353/123796141-cd97fb80-d8b2-11eb-9e49-026a973340a4.png)
-![Screen Shot 2021-06-29 at 08 16 28](https://user-images.githubusercontent.com/84581353/123796148-cffa5580-d8b2-11eb-9f03-2ac3fbf8583d.png)
-![Screen Shot 2021-06-29 at 08 15 21](https://user-images.githubusercontent.com/84581353/123796156-d1c41900-d8b2-11eb-90fc-daf43676f8fd.png)
-![Screen Shot 2021-06-29 at 08 16 52](https://user-images.githubusercontent.com/84581353/123796163-d38ddc80-d8b2-11eb-91eb-1c58e394dab0.png)
-![Screen Shot 2021-06-29 at 08 17 12](https://user-images.githubusercontent.com/84581353/123796168-d5f03680-d8b2-11eb-9ad6-b4423bf864bd.png)
-
+![Screen Shot 2021-07-07 at 20 13 15](https://user-images.githubusercontent.com/84581353/124843525-1bba9800-df60-11eb-910a-8e0621e3ef14.png)
+![Screen Shot 2021-07-07 at 20 12 32](https://user-images.githubusercontent.com/84581353/124843546-270dc380-df60-11eb-8750-20ef91d757ba.png)
+![Screen Shot 2021-06-29 at 14 48 07](https://user-images.githubusercontent.com/84581353/124843570-312fc200-df60-11eb-84a9-51812d25a51a.png)
+![Screen Shot 2021-07-07 at 20 11 55](https://user-images.githubusercontent.com/84581353/124843591-3a209380-df60-11eb-8f25-77aff2b78aa6.png)
 
 ## Component Hierarchy
 
