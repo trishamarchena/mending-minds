@@ -6,7 +6,7 @@ function Form(props) {
   const [username, setUsername] = useState("");
   const [topic, setTopic] = useState("");
   const [advice, setAdvice] = useState("");
-  const [rating, setRating ] = useState(0);
+  const [rating ] = useState(0);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -23,14 +23,6 @@ function Form(props) {
 //myForm info, label it so you can reference back to it in CSS
   return (
     <form onSubmit={handleSubmit}>
-
-        <input
-        type="range"
-        min={0}
-        max={5}
-        value={rating}
-        onChange={(e) => setRating(e.target.valueAsNumber)}
-      />
       <div className="formInputs">
         <div className="formUser">
       <input

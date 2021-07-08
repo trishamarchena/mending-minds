@@ -105,9 +105,21 @@ h4 {
   margin: 50px;
   position: relative;
 }
+textarea{
+  border-radius: 7px;
+  height: 70px;
+  width: 350px;
+  text-align: center;
+}
 
+input{
+  text-align: center;
+  border-radius: 7px;
+  height: 25px;
+  width: 200px;
+}
 
-/* Im gonna the same for my media query as above since the page is amazingly responsive, just changed a few of the text sizes  */
+/* Im gonna the same compfor my media query as above since the page is amazingly responsive, just changed a few of the text sizes  */
 @media only screen and (max-width: 768px) {
   h1 {
     text-align: center;

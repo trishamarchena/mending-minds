@@ -51,7 +51,7 @@ There is a tab that takes you to the form labeled as "Start your journey here! "
 | Friday July 2| React | Complete| 
 | Monday July 5| CSS | Complete|
 | Tuesday July 6 | Media Query | Complete| 
-| Wednesday July 7 | Presentation | inComplete| 
+| Wednesday July 7 | Presentation | Complete| 
 
 
 
