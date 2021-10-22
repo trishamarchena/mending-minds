@@ -3,7 +3,7 @@ import { baseURL, config } from "../services";
 import Rating from "./Rating";
 import axios from "axios";
 
-
+ 
 function Advice(props) {
   const { username, topic, advice, rating } = props.advice.fields;
 
