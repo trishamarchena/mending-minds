@@ -13,8 +13,8 @@ function Advice(props) {
      props.setToggleFetch((curr) => !curr);
   }
 
-//Here I return my data from the API.
-//Label everything here so you're able to use it in CSS.
+
+
   return (
       <main>
         <div className= "theBody">

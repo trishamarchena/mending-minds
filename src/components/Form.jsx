@@ -31,6 +31,7 @@ function Form(props) {
         value={username} 
         onChange={(e) => setUsername(e.target.value)}
       />
+      //sets value of the name in the state to the current input value.
       </div>
       <div className="formTopic">
       <input

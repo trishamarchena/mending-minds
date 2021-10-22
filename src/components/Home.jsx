@@ -11,7 +11,7 @@ function Home () {
           Either way, we look forward to helping you get one step closer to mental health in whatever way possible. </h3>
           </div>
           <footer>
-            <h4>Patricia Marchena, Mending Minds &copy; </h4>
+            <h4>Patricia Marchena, Mending Minds 2021 &copy; </h4>
           </footer>
           </main>
   )
